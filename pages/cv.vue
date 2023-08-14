@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import me from "~/assets/me.webp";
+import me from "~/assets/me.png";
 
 useHead({
   title: "CV / Resume",

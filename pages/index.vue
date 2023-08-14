@@ -11,7 +11,7 @@ useHead({
 });
 import type { UseIntersectionObserverReturn } from "@vueuse/core";
 import { useIntersectionObserver } from "@vueuse/core";
-import me from "~/assets/me.webp";
+import me from "~/assets/me.png";
 
 const findMe = ref<HTMLInputElement | null>(null);
 const findMeContent = ref<HTMLInputElement | null>(null);
@@ -61,7 +61,7 @@ useFadeIn(() => Array.from(document.getElementsByClassName("fadeSection")));
       <section
         class="mt-12 md:mt-0 flex flex-grow flex-row select-none justify-center text-8xl font-mono"
       >
-        <span class="tracking-wider">Hello</span
+        <span class="tracking-wider">Moin</span
         ><Icon name="mdi:hand-wave" class="ml-3" />
       </section>
       <section
