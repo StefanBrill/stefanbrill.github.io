@@ -1,20 +1,9 @@
-<script setup lang="ts">
-const scrollToTutorialsSection = () => {
-  const fn = inject("scrollToTutorialsSection") as Function;
-  fn();
-};
-const scrollToAboutMeSection = () => {
-  const fn = inject("scrollToAboutMeSection") as Function;
-  fn();
-};
-</script>
-
 <template>
   <nav class="print:hidden">
-    <!-- Covers everything, which is not root "/" and not "/tutorials" -->
+    <!-- Covers everything, which is not root "/" and not "/blog" -->
     <span
       v-show="
-        $route.fullPath?.length > 1 && !$route.fullPath?.match('/tutorials/.+')
+        $route.fullPath?.length > 1 && !$route.fullPath?.match('/blog/.+')
       "
     >
       <NuxtLink
@@ -25,11 +14,11 @@ const scrollToAboutMeSection = () => {
     </span>
 
     <!-- Covers everything, which is not root "/" -->
-    <span v-show="$route.fullPath?.match('/tutorials/.+')">
+    <span v-show="$route.fullPath?.match('/blog/.+')">
       <NuxtLink
-        to="/tutorials"
+        to="/blog"
         class="ml-3 text-xl transition duration-500 hover:duration-500 hover:text-cyan-700 dark:hover:text-cyan-700"
-        ><Icon name="material-symbols:arrow-left-alt" />Tutorials</NuxtLink
+        ><Icon name="material-symbols:arrow-left-alt" />Blog</NuxtLink
       >
     </span>
 
@@ -46,7 +35,7 @@ const scrollToAboutMeSection = () => {
       <NuxtLink
         class="icon-btn"
         rel="noreferrer"
-        to="https://github.com/simonscholz"
+        to="https://github.com/stefanbrill"
         target="_blank"
         title="GitHub"
       >
@@ -64,13 +53,13 @@ const scrollToAboutMeSection = () => {
       <NuxtLink
         class="icon-btn"
         rel="noreferrer"
-        to="https://twitter.com/simonscholz"
+        to="https://twitter.com/stefanbrill"
         target="_blank"
         title="Twitter"
       >
         <Icon name="uil:twitter-alt" />
       </NuxtLink>
-      <NuxtLink class="icon-btn" title="My Tutorials" to="/tutorials">
+      <NuxtLink class="icon-btn" title="My Blog" to="/blog">
         <Icon name="carbon:education" />
       </NuxtLink>
       <NuxtLink class="icon-btn" title="About Me" to="/about">

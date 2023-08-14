@@ -7,7 +7,7 @@ useHead({
 useServerSeoMeta({
   title: "Stefan Brill",
   ogTitle: "Stefan Brill",
-  ogUrl: "https://simonscholz.github.io/",
+  ogUrl: "https://stefanbrill.github.io/",
   description:
     "View the profile and skills of Stefan Brill plus tutorials he has written for you",
   ogDescription:

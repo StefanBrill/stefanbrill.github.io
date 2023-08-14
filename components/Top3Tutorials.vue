@@ -1,6 +1,6 @@
 <script setup>
 const { data } = await useAsyncData("top3TutorialsQueryContent", () =>
-  queryContent("tutorials")
+  queryContent("blog")
     .only(["path", "title"])
     .sort({ date: -1 })
     .limit(3)

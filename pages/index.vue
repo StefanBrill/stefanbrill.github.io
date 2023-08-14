@@ -5,7 +5,7 @@ useHead({
     {
       name: "description",
       content:
-        "Profile of Stefan Brill including quotes, about me, tutorials and tech stack",
+        "Profile of Stefan Brill including quotes, about me, blog and tech stack",
     },
   ],
 });
@@ -15,7 +15,7 @@ import me from "~/assets/me.png";
 
 const findMe = ref<HTMLInputElement | null>(null);
 const findMeContent = ref<HTMLInputElement | null>(null);
-const tutorialsSection = ref<HTMLInputElement | null>(null);
+const blogSection = ref<HTMLInputElement | null>(null);
 const aboutMeSection = ref<HTMLInputElement | null>(null);
 
 function scrollToAboutMeSection(e: Event) {
@@ -114,7 +114,7 @@ useFadeIn(() => Array.from(document.getElementsByClassName("fadeSection")));
             <NuxtLink
               class="icon-btn px-10"
               rel="noreferrer"
-              href="https://github.com/simonscholz"
+              href="https://github.com/stefanbrill"
               target="_blank"
               title="GitHub"
             >
@@ -132,7 +132,7 @@ useFadeIn(() => Array.from(document.getElementsByClassName("fadeSection")));
             <NuxtLink
               class="icon-btn"
               rel="noreferrer"
-              href="https://twitter.com/simonscholz"
+              href="https://twitter.com/stefanbrill"
               target="_blank"
               title="Twitter"
             >
@@ -150,22 +150,22 @@ useFadeIn(() => Array.from(document.getElementsByClassName("fadeSection")));
       </div>
     </section>
     <section
-      id="tutorials"
-      ref="tutorialsSection"
+      id="blod"
+      ref="blogSection"
       class="mt-32 md:mt-40 flex flex-col snap-center snap-always items-center justify-center text-3xl fadeSection md:mx-10"
     >
       <div class="mb-10 flex flex-row">
-        Latest Tutorials <Icon name="carbon:education" class="ml-2" />
+        Neuste Blog-Artikel <Icon name="carbon:pen" class="ml-2" />
       </div>
       <div class="md:w-2/3">
         <Top3Tutorials />
       </div>
       <div class="mt-8">
         <NuxtLink
-          to="/tutorials"
+          to="/blog"
           title="All Tutorials"
           class="text-xl border-0 p-2 px-4 transition duration-500 hover:duration-500 bg-cyan-600 hover:bg-cyan-700 rounded-md"
-          >Show all tutorials</NuxtLink
+          >Alle Blog-Artikel</NuxtLink
         >
       </div>
     </section>
@@ -175,7 +175,7 @@ useFadeIn(() => Array.from(document.getElementsByClassName("fadeSection")));
       class="fadeSection mt-20 md:mt-32 flex flex-col snap-center snap-always items-center justify-center"
     >
       <div class="flex flex-row text-3xl">
-        About Me <Icon name="carbon:id-management" class="ml-2" />
+        Über mich <Icon name="carbon:id-management" class="ml-2" />
       </div>
       <div class="mt-6 flex flex-col items-center justify-center text-center">
         <div
@@ -195,10 +195,10 @@ useFadeIn(() => Array.from(document.getElementsByClassName("fadeSection")));
           </p>
           <NuxtLink
             to="/about"
-            title="About Me"
+            title="Über mich"
             class="mr-2 mt-4 flex flex-row justify-end text-2xl icon-btn"
           >
-            ... Read more <Icon name="uil:book-reader" class="ml-2" />
+            ... mehr lesen <Icon name="uil:book-reader" class="ml-2" />
           </NuxtLink>
         </div>
       </div>
@@ -207,7 +207,7 @@ useFadeIn(() => Array.from(document.getElementsByClassName("fadeSection")));
       class="mt-20 md:mt-32 flex flex-col snap-center snap-always items-center justify-center text-3xl fadeSection md:mx-10 mb-10"
     >
       <div class="mb-6 flex flex-row">
-        Languages & Tools <Icon name="carbon:tool-kit" class="ml-2" />
+        Meine Werke <Icon name="carbon:image" class="ml-2" />
       </div>
       <div class="flex flex-row flex-wrap justify-center md:w-2/3">
         <Tools />

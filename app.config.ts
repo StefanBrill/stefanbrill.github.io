@@ -2,7 +2,7 @@ export default defineAppConfig({
     cover: '/cover.png',
     socials: {
         twitter: 'simonscholz',
-        github: 'simonscholz'
+        github: 'stefanbrill'
     },
     prose: {
         h1: {
