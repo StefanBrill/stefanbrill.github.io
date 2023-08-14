@@ -10,28 +10,28 @@ useHead({
 				Information in accordance with Section 5 TMG
 				<br />
                 <br />
-				Simon Scholz
+				Stefan Brill
 				<br />
-				Uckermarkweg 1️⃣2️⃣a
+				Richardstraße  27b
 				<br />
-				2️⃣2️⃣4️⃣1️⃣5️⃣ Hamburg
+				Hamburg
 				<br />
                 <br />
 				<h2 class="text-xl">Contact Information</h2>
-				Telephone: +4️⃣9️⃣ 1️⃣7️⃣6️⃣ - 4️⃣3️⃣ 6️⃣2️⃣2️⃣ 0️⃣6️⃣0️⃣
+				Telephone:
 				<br />
 				E-Mail:
-				<a href="mailto:opensource.simon@gmail.com">
-					opensource.simonⓐⓣgmail.com
+				<a href="">
+					
 				</a>
 				<br />
 				Internet address:
 				<a
-					href="https://simonscholz.github.io/"
+					href="https://stefanbrill.github.io/"
 					target="_blank"
 					rel="noreferrer"
 				>
-					https://simonscholz.github.io/
+					https://stefanbrill.github.io/
 				</a>
 				<br />
 				<br />

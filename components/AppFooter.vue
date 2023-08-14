@@ -25,7 +25,7 @@ const year = new Date().getFullYear();
       class="container flex flex-col md:flex-row md:justify-between mx-auto border-t-2 sticky bottom-0 print:hidden"
     >
       <span class="block md:flex-grow ml-4 text-gray-800 dark:text-gray-300"
-        >© Simon Scholz 2020 - {{ year }}</span
+        >© Stefan Brill 2020 - {{ year }}</span
       >
       <div class="block ml-4">
         <NuxtLink

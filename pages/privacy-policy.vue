@@ -180,13 +180,13 @@ useHead({
       European Union and other provisions related to data protection is:
     </p>
 
-    <p>Simon Scholz</p>
-    <p>Uckermarkweg 1️⃣2️⃣a</p>
+    <p>Stefan Brill</p>
+    <p>Richardstraße 29b</p>
     <p>2️⃣2️⃣4️⃣1️⃣5️⃣ Hamburg</p>
     <p>Germany / Deutschland</p>
-    <p>Phone: +4️⃣9️⃣ 1️⃣7️⃣6️⃣ - 4️⃣3️⃣ 6️⃣2️⃣2️⃣ 0️⃣6️⃣0️⃣</p>
-    <p>Email: opensource.simonⓐⓣgmail.com</p>
-    <p>Website: https://simonscholz.github.io/</p>
+    <p>Phone: </p>
+    <p>Email: </p>
+    <p>Website: https://stefanbrill.github.io/</p>
 
     <h4>3. Cookies</h4>
     <p>

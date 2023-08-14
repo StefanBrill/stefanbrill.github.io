@@ -5,7 +5,7 @@ useHead({
     {
       name: "description",
       content:
-        "Profile of Simon Scholz including quotes, about me, tutorials and tech stack",
+        "Profile of Stefan Brill including quotes, about me, tutorials and tech stack",
     },
   ],
 });

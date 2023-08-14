@@ -1,22 +1,22 @@
 <script setup lang="ts">
 useHead({
   titleTemplate: (titleChunk) => {
-    return titleChunk ? `${titleChunk} - Simon Scholz` : "Simon Scholz";
+    return titleChunk ? `${titleChunk} - Stefan Brill` : "Stefan Brill";
   },
 });
 useServerSeoMeta({
-  title: "Simon Scholz",
-  ogTitle: "Simon Scholz",
+  title: "Stefan Brill",
+  ogTitle: "Stefan Brill",
   ogUrl: "https://simonscholz.github.io/",
   description:
-    "View the profile and skills of Simon Scholz plus tutorials he has written for you",
+    "View the profile and skills of Stefan Brill plus tutorials he has written for you",
   ogDescription:
-    "View the profile and skills of Simon Scholz plus tutorials he has written for you",
+    "View the profile and skills of Stefan Brill plus tutorials he has written for you",
   twitterCard: "summary_large_image",
-  titleTemplate: "%s - Simon Scholz",
-  applicationName: "Simon Scholz",
-  author: "Simon Scholz",
-  creator: "Simon Scholz",
+  titleTemplate: "%s - Stefan Brill",
+  applicationName: "Stefan Brill",
+  author: "Stefan Brill",
+  creator: "Stefan Brill",
   generator: "Nuxt",
   robots: {
     all: true,

@@ -9,7 +9,7 @@ on:
 
 env:
   DEPLOY_BRANCH: 'master'
-  USERNAME: 'simonscholz'
+  USERNAME: 'stefanbrill'
   BUILD_DIR: .output/public
 
 
