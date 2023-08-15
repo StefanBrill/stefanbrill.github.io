@@ -59,8 +59,17 @@
       >
         <Icon name="uil:twitter-alt" />
       </NuxtLink>
+      <NuxtLink
+        class="icon-btn"
+        rel="noreferrer"
+        to="https://instagram.com/sb_f.o.t.o.s"
+        target="_blank"
+        title="Instagram"
+      >
+        <Icon name="uil:instagram-alt" />
+      </NuxtLink>
       <NuxtLink class="icon-btn" title="My Blog" to="/blog">
-        <Icon name="carbon:education" />
+        <Icon name="carbon:pen" />
       </NuxtLink>
       <NuxtLink class="icon-btn" title="About Me" to="/about">
         <Icon name="carbon:id-management" />

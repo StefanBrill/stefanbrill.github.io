@@ -2,16 +2,21 @@
 title: About
 ---
 
-<span class="text-3xl">About Me <Icon name="carbon:id-management" class="ml-2" />
+<span class="text-3xl">Über mich<Icon name="carbon:id-management" class="ml-2" />
 
-I am a passionate advocate for **open source** and sharing knowledge. With a deep-rooted love for computers and technology from an early age, I embarked on my coding journey, developing my first website at the age of twelve. Since then, my fascination with the endless possibilities of technology has only grown stronger.
+Herzlich willkommen auf meiner Fotografie-Seite! Mein Name ist Stefan Brill, und ich bin leidenschaftlicher Fotograf mit Sitz in der wunderschönen Stadt Hamburg.
 
-Currently serving as the Principal Engineer for the Apps & Store Touchpoints domain of MediamarktSaturn Technology, I have been entrusted with the responsibility of overseeing the entire domain. In this role, I drive technical improvements for overarching topics, including stabilizing product teams, making critical architecture decisions, providing guidance on technology choices, and conducting thorough analyses of technical debt. By spearheading these initiatives, I strive to enhance efficiency, maintain a robust infrastructure, and ensure exceptional user experiences across our services.
+Seit meiner Kindheit hat mich die Welt der Fotografie fasziniert. Die Fähigkeit, Momente einzufangen und Geschichten durch Bilder zu erzählen, hat mich immer inspiriert. Mein Werdegang begann mit ersten Schritten in die analoge Fotografie, doch im Laufe der Jahre habe ich mich auch intensiv mit digitaler Technologie auseinandergesetzt, um die bestmöglichen Ergebnisse zu erzielen.
 
-Throughout my career, I have gained expertise in a diverse range of technologies and frameworks, enabling me to leverage the most suitable tools for the task at hand. My proficiency lies in driving innovation, streamlining processes, and maximizing the potential of our technical resources.
+Hamburg bietet eine einzigartige Kulisse für Fotografen, von den historischen Backsteinbauten bis hin zu den modernen architektonischen Wundern. Ich liebe es, in den Straßen dieser Stadt unterwegs zu sein und sowohl die pulsierende Energie des Stadtlebens als auch die ruhigen Augenblicke an den Ufern der Alster einzufangen. Mein Ziel ist es immer, die Seele der Stadt in meinen Bildern widerzuspiegeln.
 
-Previously, I held the position of Senior Lead Engineer at MediaMarktSaturn Technology, where I successfully led a team responsible for calculating delivery times, providing delivery promises, managing product reservations, and implementing distribution rules. Leveraging technologies such as Spring Boot, Quarkus, and Kotlin, I delivered high-quality solutions that optimized operational efficiency and customer satisfaction.
+Doch nicht nur die Stadtlandschaften faszinieren mich. Porträtfotografie ist eine weitere Leidenschaft von mir. Die Fähigkeit, die Persönlichkeit und Emotionen einer Person in einem einzigen Bild festzuhalten, ist etwas, das mich immer wieder begeistert. Ich arbeite eng mit meinen Kunden zusammen, um sicherzustellen, dass ihre einzigartigen Geschichten und Charakterzüge in jeder Aufnahme zum Ausdruck kommen.
 
-Prior to my tenure at MediaMarktSaturn, I worked at vogella GmbH, an esteemed open-source company founded by Java Champion Lars Vogel. During this time, I conducted comprehensive training sessions, delivered talks and workshops at prominent industry events, and actively contributed to open source projects, solidifying my commitment to knowledge acquisition and distribution.
+Mit jedem Fotoshooting strebe ich danach, einzigartige und beeindruckende Bilder zu schaffen, die Menschen berühren und inspirieren. Meine Fotografie ist nicht nur ein Beruf, sondern eine Art, meine Sicht auf die Welt mit anderen zu teilen. Ich lade Sie ein, sich durch meine Portfolio-Seiten zu klicken und einen Einblick in meine Arbeit zu erhalten.
 
-For additional insights into my experience and accomplishments, please refer to my comprehensive <a href="/cv">CV <Icon name="pepicons-pop:cv" class="ml-2"/></a>.
+Vielen Dank, dass Sie vorbeigeschaut haben. Wenn Sie Interesse an meiner Arbeit haben oder eine Zusammenarbeit besprechen möchten, stehe ich Ihnen gerne zur Verfügung. Lassen Sie uns gemeinsam Momente festhalten und Erinnerungen schaffen.
+
+Herzlichst,
+Stefan Brill
+
+Meinen Lebenslauf finden Sie hier: <a href="/cv">Lebenslauf <Icon name="pepicons-pop:cv" class="ml-2"/></a>.

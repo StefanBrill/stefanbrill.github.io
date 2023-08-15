@@ -11,7 +11,7 @@ useHead({
 });
 import type { UseIntersectionObserverReturn } from "@vueuse/core";
 import { useIntersectionObserver } from "@vueuse/core";
-import me from "~/assets/me.png";
+import me from "~/assets/me.webp";
 
 const findMe = ref<HTMLInputElement | null>(null);
 const findMeContent = ref<HTMLInputElement | null>(null);
@@ -112,13 +112,13 @@ useFadeIn(() => Array.from(document.getElementsByClassName("fadeSection")));
             class="grow grid grid-cols-4 mt-10 gap-y-32 justify-items-center space-x-4"
           >
             <NuxtLink
-              class="icon-btn px-10"
+              class="icon-btn"
               rel="noreferrer"
-              href="https://github.com/stefanbrill"
+              to="https://instagram.com/sb_f.o.t.o.s"
               target="_blank"
-              title="GitHub"
+              title="Instagram"
             >
-              <Icon name="uil:github-alt" />
+              <Icon name="uil:instagram-alt" />
             </NuxtLink>
             <NuxtLink
               class="icon-btn"
@@ -182,16 +182,9 @@ useFadeIn(() => Array.from(document.getElementsByClassName("fadeSection")));
           class="aboutme flex-row border-2 border-opacity-50 rounded-lg bg-opacity-50 p-2 text-xl md:w-2/3"
         >
           <p>
-            I am a passionate advocate for <b>open source</b> and sharing
-            knowledge. With a deep-rooted love for computers and technology from
-            an early age, I embarked on my coding journey, developing my first
-            website at the age of twelve. Since then, my fascination with the
-            endless possibilities of technology has only grown stronger.
-          </p>
-
-          <p>
-            Currently serving as the Principal Engineer for the Apps & Store
-            Touchpoints domain of MediamarktSaturn Technology...
+            Herzlich willkommen auf meiner Fotografie-Seite! Mein Name ist
+            Stefan Brill, und ich bin leidenschaftlicher Fotograf mit Sitz in
+            der wunderschönen Stadt Hamburg.
           </p>
           <NuxtLink
             to="/about"

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import me from "~/assets/me.png";
+import me from "~/assets/me.webp";
 
 useHead({
   title: "CV / Resume",
@@ -38,13 +38,10 @@ useHead({
             </span>
             <span class="p-1">
               <Icon name="fa-solid:paper-plane" class="mr-1" />
-              <a href="mailto:herr.brill@web.de">
-                herr.brill@web.de
-              </a>
+              <a href="mailto:herr.brill@web.de"> herr.brill@web.de </a>
             </span>
             <span class="p-1">
               <Icon name="fa:phone" class="mr-1" />
-              
             </span>
             <span class="p-1">
               <Icon name="material-symbols:house-outline" class="mr-1" />
