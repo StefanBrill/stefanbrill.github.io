@@ -50,13 +50,13 @@
       >
         <Icon name="uil:linkedin-alt" />
       </NuxtLink>
-      <NuxtLink class="icon-btn" title="My Blog" to="/blog">
+      <NuxtLink class="icon-btn" title="Mein Blog" to="/blog">
         <Icon name="carbon:pen" />
       </NuxtLink>
-      <NuxtLink class="icon-btn" title="About Me" to="/about">
+      <NuxtLink class="icon-btn" title="Über mich" to="/about">
         <Icon name="carbon:id-management" />
       </NuxtLink>
-      <NuxtLink class="icon-btn" to="/cv" title="My Resume / CV">
+      <NuxtLink class="icon-btn" to="/cv" title="Mein Lebenslauf">
         <Icon name="pepicons-pop:cv" />
       </NuxtLink>
     </section>
