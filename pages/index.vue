@@ -70,22 +70,19 @@ useFadeIn(() => Array.from(document.getElementsByClassName("fadeSection")));
         <span class="text-2xl m-3 md:w-1/3 md:mt-10 md:text-left fadeSection">
           <div class="m-auto">
             <p>
-              If you're <b>passionate</b> about something you're usually also
-              good at doing it.
+              Mit meiner Linse enthülle ich die Seele der Stadt und die Essenz
+              von Menschen.
             </p>
-            <br />
             <p>
-              And one of the best things of being a developer is that you can
-              craft code to automate things you're <b>not passionate</b> about.
+              Jeder Augenblick ist ein Kunstwerk, das darauf wartet, eingefangen
+              zu werden.
             </p>
-            <br />
             <p>
-              Automatization over manual work is kind of my credo
-              <span class="align-middle font-mono italic text-fuchsia-700 mx-2"
-                >&&</span
-              >
-              I've already pushed a lot of customers in that direction for the
-              better.
+              Durch meine Linse erfasse ich nicht nur Bilder, sondern die
+              Emotionen, Geschichten und Magie, die in jedem Moment stecken.
+              Meine Leidenschaft für Fotografie treibt mich dazu an, die Welt
+              mit neuen Augen zu sehen und unvergessliche Erinnerungen zu
+              schaffen.
             </p>
           </div>
         </span>
@@ -128,15 +125,6 @@ useFadeIn(() => Array.from(document.getElementsByClassName("fadeSection")));
               title="LinkedIn"
             >
               <Icon name="uil:linkedin-alt" />
-            </NuxtLink>
-            <NuxtLink
-              class="icon-btn"
-              rel="noreferrer"
-              href="https://twitter.com/stefanbrill"
-              target="_blank"
-              title="Twitter"
-            >
-              <Icon name="uil:twitter-alt" />
             </NuxtLink>
             <NuxtLink
               class="icon-btn hover:hand"

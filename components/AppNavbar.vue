@@ -35,38 +35,20 @@
       <NuxtLink
         class="icon-btn"
         rel="noreferrer"
-        to="https://github.com/stefanbrill"
-        target="_blank"
-        title="GitHub"
-      >
-        <Icon name="uil:github-alt" />
-      </NuxtLink>
-      <NuxtLink
-        class="icon-btn"
-        rel="noreferrer"
-        to="https://www.linkedin.com/in/opensource-simon"
-        target="_blank"
-        title="LinkedIn"
-      >
-        <Icon name="uil:linkedin-alt" />
-      </NuxtLink>
-      <NuxtLink
-        class="icon-btn"
-        rel="noreferrer"
-        to="https://twitter.com/stefanbrill"
-        target="_blank"
-        title="Twitter"
-      >
-        <Icon name="uil:twitter-alt" />
-      </NuxtLink>
-      <NuxtLink
-        class="icon-btn"
-        rel="noreferrer"
         to="https://instagram.com/sb_f.o.t.o.s"
         target="_blank"
         title="Instagram"
       >
         <Icon name="uil:instagram-alt" />
+      </NuxtLink>
+      <NuxtLink
+        class="icon-btn"
+        rel="noreferrer"
+        to="https://www.linkedin.com/in/stefan-brill-174223282/"
+        target="_blank"
+        title="LinkedIn"
+      >
+        <Icon name="uil:linkedin-alt" />
       </NuxtLink>
       <NuxtLink class="icon-btn" title="My Blog" to="/blog">
         <Icon name="carbon:pen" />
