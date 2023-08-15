@@ -17,6 +17,7 @@ Mit jedem Fotoshooting strebe ich danach, einzigartige und beeindruckende Bilder
 Vielen Dank, dass Sie vorbeigeschaut haben. Wenn Sie Interesse an meiner Arbeit haben oder eine Zusammenarbeit besprechen möchten, stehe ich Ihnen gerne zur Verfügung. Lassen Sie uns gemeinsam Momente festhalten und Erinnerungen schaffen.
 
 Herzlichst,
+
 Stefan Brill
 
 Meinen Lebenslauf finden Sie hier: <a href="/cv">Lebenslauf <Icon name="pepicons-pop:cv" class="ml-2"/></a>.

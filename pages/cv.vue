@@ -18,7 +18,7 @@ useHead({
       />
       <span class="font-semibold text-xl text-cyan-500">
         Stefan Brill
-        <br />* 27.04.1986
+        <br />* 28.05.1984
       </span>
     </div>
     <div class="hidden print:block">

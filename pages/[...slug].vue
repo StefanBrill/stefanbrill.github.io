@@ -13,7 +13,6 @@
             <span class="md:ml-3">{{ doc.date }}</span>
             <span class="hidden md:block ml-3">⚬</span>
             <span class="md:ml-3">{{ doc.readingTime.text }}</span>
-            <span class="hidden md:block ml-3">⚬</span>
           </div>
           <hr />
           <BlogTableOfContents class="mt-2" :links="doc.body?.toc?.links" />

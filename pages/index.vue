@@ -106,7 +106,7 @@ useFadeIn(() => Array.from(document.getElementsByClassName("fadeSection")));
         </div>
         <div ref="findMeContent" class="flex flex-row findMeContentsHidden">
           <div
-            class="grow grid grid-cols-4 mt-10 gap-y-32 justify-items-center space-x-4"
+            class="grow grid grid-cols-3 mt-10 gap-y-32 justify-items-center space-x-4"
           >
             <NuxtLink
               class="icon-btn"
@@ -191,7 +191,8 @@ useFadeIn(() => Array.from(document.getElementsByClassName("fadeSection")));
         Meine Werke <Icon name="carbon:image" class="ml-2" />
       </div>
       <div class="flex flex-row flex-wrap justify-center md:w-2/3">
-        <Tools />
+        <img src="bahn.jpg" title="Bahn" />
+        <img src="elbphi.jpg" title="Elbphi" />
       </div>
     </section>
   </div>
