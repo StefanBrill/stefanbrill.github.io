@@ -14,20 +14,6 @@
             <span class="hidden md:block ml-3">⚬</span>
             <span class="md:ml-3">{{ doc.readingTime.text }}</span>
             <span class="hidden md:block ml-3">⚬</span>
-            <span class="md:ml-3">
-              <NuxtLink
-                :to="
-                  'https://github.com/SimonScholz/simonscholz.github.io/issues/new?labels=website,tutorial&title=[' +
-                  doc.id +
-                  ']'
-                "
-              >
-                <img
-                  src="https://img.shields.io/badge/-Feedback%3F%20Requests%3F-gray?logo=github"
-                  alt="Feedback / Requests?"
-                  title="Feedback / Requests?"
-                /> </NuxtLink
-            ></span>
           </div>
           <hr />
           <BlogTableOfContents class="mt-2" :links="doc.body?.toc?.links" />

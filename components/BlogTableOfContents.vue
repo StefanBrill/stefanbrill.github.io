@@ -6,9 +6,9 @@
         isVisible ? 'mb-2' : '',
       ]"
       @click="toggleToc"
-      aria-label="Expand the table of contents."
+      aria-label="Inhalt"
     >
-      <span class="mb-0 text-2xl text-gray-400">Table of Contents</span>
+      <span class="mb-0 text-2xl text-gray-400">Inhalt</span>
     </header>
     <ul v-if="links" :class="[isVisible ? 'block' : 'hidden']">
       <!-- render each link with depth class -->
