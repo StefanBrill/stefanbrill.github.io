@@ -1,0 +1,1 @@
+import{l as s,b as t,c as _,S as o}from"./entry.ddad1708.js";const r={},n={class:"prose-em"};function a(e,c){return t(),_("em",n,[o(e.$slots,"default",{},void 0,!0)])}const f=s(r,[["render",a],["__scopeId","data-v-89fbaf32"]]);export{f as default};

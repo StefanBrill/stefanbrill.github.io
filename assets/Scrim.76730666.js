@@ -1,0 +1,1 @@
+import{d as n,Z as t,L as a,X as r,b as p,c as u,n as l,N as d,l as m}from"./entry.ddad1708.js";const i=n({__name:"Scrim",props:{color:t("red")},setup(o){const e=o,c=a(()=>((_=e)=>_.color)()),{$pinceau:s}=r(e,void 0,{_oRT_backgroundColor:c});return(_,f)=>(p(),u("div",{class:l(["scrim",[d(s)]])},null,2))}});const x=m(i,[["__scopeId","data-v-8518c927"]]);export{x as default};

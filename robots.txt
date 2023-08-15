@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: 
+
+# Stefan Brill Profile + Blog
+Host: https://stefanbrill.github.io
+Sitemap: https://stefanbrill.github.io/sitemap.xml

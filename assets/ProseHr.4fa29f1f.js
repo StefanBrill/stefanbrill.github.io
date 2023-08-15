@@ -1,0 +1,1 @@
+import{l as e,b as _,c as r}from"./entry.ddad1708.js";const s={},o={class:"prose-hr"};function t(c,n){return _(),r("hr",o)}const d=e(s,[["render",t],["__scopeId","data-v-77570bdf"]]);export{d as default};
